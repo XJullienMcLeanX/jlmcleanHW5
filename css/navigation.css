@@ -1,0 +1,48 @@
+/*
+ Filename: navigation.css
+ Written by: Jullien McLean (JLJM)
+ Purpose: The css to style navigation.html
+ Date: 24 February, 2020
+ Modification History: 24 February, 2020
+ Original Build
+*/
+
+#navigation {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+}
+
+#navigation ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+    justify-content: center;
+}
+
+#navigation li {
+	float: left; 
+}
+
+#navigation li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	border-right: 1px solid #ccc;	
+}
+
+#navigation li:first-child a {
+	border-left: 1px solid #ccc; 
+}
+
+#navigation li a:hover {
+	color: #c00;
+	background-color: #fff; 
+}
