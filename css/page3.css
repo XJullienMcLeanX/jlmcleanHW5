@@ -1,0 +1,51 @@
+/*
+ Filename: page3.css
+ Written by: Jullien McLean (JLJM)
+ Purpose: The css to style page3.html
+ Date: 22 February, 2020
+ Modification History: 22 February, 2020
+ Original Build
+*/
+
+body {
+	background-color: black;
+}
+
+#main {
+	background-color: gray;
+	height: 768px;
+	width: 1024px;
+	position: absolute;
+	left: 50%;
+	margin-left: -512px;
+	margin-right: -384px;
+}
+
+#redBlock {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	left: 345px;
+	top: 345px;
+	z-index: 1;
+	position: absolute;
+}
+
+#blueBlock {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	left: 200px;
+	top: 200px;
+	z-index: 0;
+	position: absolute;
+}
+
+#yellowBlock {
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	left: 300px;
+	top: 300px;
+	position: absolute;
+}
